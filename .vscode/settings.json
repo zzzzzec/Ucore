@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "kmonitor.h": "c",
+        "trap.h": "c",
+        "clock.h": "c",
+        "intr.h": "c",
+        "defs.h": "c",
+        "elf.h": "c",
+        "console.h": "c",
+        "x86.h": "c"
+    }
+}

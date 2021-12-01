@@ -1,0 +1,20 @@
+file bin/kernel
+set architecture i8086
+target remote :1234
+b *0x7c00
+
+define asm
+set disassemble-next-line on
+end
+
+define noasm
+set disassemble-next-line off
+end
+
+define bp
+info r ebp
+info r esp
+end
+define ra
+x/x $ebp + 4
+end
